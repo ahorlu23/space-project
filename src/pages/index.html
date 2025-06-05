@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Travel</title>
+    <link href="../src/output.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body class="h-screen w-full text-white bg-black overflow-hidden">
+
+    <!-- background image -->
+    <div class="absolute inset-0 -z-10">
+        <img src="/assets/home/background-home-desktop.jpg" alt="Earth from space" class="w-full h-full object-cover"/>
+    </div>
+
+    <!-- Header / Navbar -->
+     <header class="flex items-center justify-between p-6 md:p-10">
+        <div>
+            <img src="/assets/shared/logo.svg" alt="Logo" class="w-10 h-10" />
+        </div>
+        <div class="border-t border-gray-700 my-10 w-full max-w-md"></div>
+        <nav class="backdrop-blur-md bg-white/10 px-12 py-4 flex space-x-8 tracking-widest uppercase text-sm font-light">
+            <a href="/Bulid/index.html" class="text-white hover:underline font-serif font-semibold border-white pb-1">00 Home</a>
+            <a href="/Bulid/destination.html" class="text-white hover:underline font-serif font-semibold border-white pb-1">01 Destination</a>
+            <a href="/Bulid/crew.html" class="text-white hover:underline font-serif font-semibold border-white pb-1">02 Crew</a>
+            <a href="/Bulid/tech.html" class="text-white hover:underline font-serif font-semibold border-white pb-1">03 Technology</a>
+        </nav>
+     </header>
+
+     <!-- Main Section -->
+      <main class="flex flex-col md:flex-row justify-between items-center h-full px-6 md:px-20">
+        <!-- Left text content -->
+         <div class="max-w-xl mt-20 md:mt-0">
+            <p class="text-lg tracking-widest text-gray-300 uppercase font-serif">So, you want to travel to</p>
+            <h1 class="text-8xl font-normal mt-4 mb-6 font-serif">SPACE</h1>
+            <p class="text-base text-gray-300 leading-relaxed font-serif">
+                Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this world experience!
+            </p>
+         </div>
+
+         <!-- explore button -->
+          <div class="mt-20 md:mt-0">
+            <a href="#" class="w-40 h-40 bg-white text-black rounded-full flex items-center justify-center text-xl tracking-widest font-serif hover:scale-110 transition duration-300">
+                EXPLORE
+            </a>
+          </div>
+
+      </main>
+    
+</body>
+</html>
